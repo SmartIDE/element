@@ -14,13 +14,13 @@
     services:
   
       element-ui:
-        image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-base:latest
+        image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-base-node:latest
         environment:
           POSTGRES_HOST_AUTH_METHOD: trust
           ROOT_PASSWORD: root123
         restart: always
         volumes:
-          - .:/home/workspace/project
+          - .:/home/project
         expose:
           - 3000
         ports:
