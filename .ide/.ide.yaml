@@ -20,7 +20,7 @@
           ROOT_PASSWORD: root123
         restart: always
         volumes:
-          - .:/home/smartide/project
+          - .:/home/project
         expose:
           - 3000
         ports:
