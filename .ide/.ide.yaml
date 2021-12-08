@@ -17,7 +17,7 @@
         image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-opvscode-node:latest
         environment:
           POSTGRES_HOST_AUTH_METHOD: trust
-          ROOT_PASSWORD: root123
+          ROOT_PASSWORD: root
           LOCAL_USER_PASSWORD: root
         restart: always
         volumes:
