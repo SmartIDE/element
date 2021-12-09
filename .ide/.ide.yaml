@@ -14,7 +14,7 @@
     services:
   
       element-ui:
-        image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-opvscode-node:latest
+        image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-node:latest
         environment:
           POSTGRES_HOST_AUTH_METHOD: trust
           ROOT_PASSWORD: root
